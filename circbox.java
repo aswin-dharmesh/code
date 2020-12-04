@@ -1,5 +1,5 @@
 /*multiclass demo*/
-class circle{
+class circle1{
     double x,y,r;
 
     double circumference(){
@@ -19,7 +19,7 @@ class box{
 }
 public class circbox {
      public static void main(String[] args) {
-         circle c=new circle();
+         circle1 c=new circle1();
          box b=new box();
          c.r=5.5;
          b.l=23.0;
